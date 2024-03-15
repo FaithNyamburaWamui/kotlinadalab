@@ -1,22 +1,22 @@
 fun main() {
-//    var x: Int?= 5
-//    x = null
+   var x: Int?= 5
+    x = null
 
-    var animals = arrayOf("dogs", "cats", "parrot", "hen", "cow")
-    animals.forEach { animal ->
-        println("dog")
+    var creature= arrayOf("camel", "tiger", "cheetah", "elephant", "donkey")
+    creature.forEach { animal ->
+        println("cheetah")
     }
-    for (animal in animals) {
-        println(animal)
+    for (creature in creature) {
+        println(creature)
     }
 
 
 //
 //
 //
-    println(animals.slice(2..4))
-    animals = animals.sortedArray()
-    println(animals.contentToString())
+    println(creature.slice(2..4))
+    creature = creature.sortedArray()
+    println(creature.contentToString())
 
 
     var animals: Array<String?> = arrayOf("dogs", "cats", "parrot", "hen", "cow")
